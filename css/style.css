@@ -35,11 +35,6 @@ header {
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4);
 }
 
-header .name {
-  color: #ff9a8d;
-  text-shadow: 0 0 7px rgba(255, 154, 141, 0.5);
-}
-
 header .surname {
   color: #91eaf7;
   text-shadow: 0 0 7px rgba(145, 234, 247, 0.5);
@@ -180,10 +175,6 @@ header .surname {
   text-align: center;
   line-height: 1.4em;
   letter-spacing: 2.5px;
-  color: #ff9a8d;
-}
-
-.left_side .profile_text .surname {
   color: #91eaf7;
 }
 
