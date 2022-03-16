@@ -846,27 +846,30 @@ footer {
   height: auto;
   margin-bottom: 60px;
   padding: 15px 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fffcfb;
+  text-shadow: 0 0 5px rgba(255, 252, 251, 0.3);
   border: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   background-color: #2f3547;
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4);
 }
 footer a {
-  font-size: 0.9rem;
-  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font: inherit;
   text-align: center;
   color: #fffcfb;
   text-shadow: 0 0 5px rgba(255, 252, 251, 0.3);
   text-decoration: none;
 }
 footer a i.fa-github {
-  margin-right: 5px;
+  margin-right: 10px;
   font-size: 36px;
 }
 footer .footer_text {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: #fffcfb;
+  line-height: 100%;
 }
 
 @media (max-width: 1000px) {
